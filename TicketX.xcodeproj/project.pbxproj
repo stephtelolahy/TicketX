@@ -10,8 +10,23 @@
 		26353CE428ECBE0600351F9F /* TicketXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353CE328ECBE0600351F9F /* TicketXApp.swift */; };
 		26353CE628ECBE0600351F9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353CE528ECBE0600351F9F /* ContentView.swift */; };
 		26353CE828ECBE0800351F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26353CE728ECBE0800351F9F /* Assets.xcassets */; };
-		26353CEB28ECBE0800351F9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26353CEA28ECBE0800351F9F /* Preview Assets.xcassets */; };
 		26353CF528ECBE0800351F9F /* TicketXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353CF428ECBE0800351F9F /* TicketXTests.swift */; };
+		26353D1528ECCE9100351F9F /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 26353D1428ECCE9100351F9F /* Preview Content */; };
+		26353D1C28ECD21200351F9F /* TransactionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D1B28ECD21200351F9F /* TransactionsList.swift */; };
+		26353D1E28ECD2CA00351F9F /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D1D28ECD2CA00351F9F /* Loadable.swift */; };
+		26353D1F28ECD2DA00351F9F /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D1D28ECD2CA00351F9F /* Loadable.swift */; };
+		26353D2128ECD3DA00351F9F /* TransactionsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D2028ECD3DA00351F9F /* TransactionsListViewModel.swift */; };
+		26353D2228ECD3DA00351F9F /* TransactionsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D2028ECD3DA00351F9F /* TransactionsListViewModel.swift */; };
+		26353D2428ECD42300351F9F /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D2328ECD42300351F9F /* Transaction.swift */; };
+		26353D2528ECD42300351F9F /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D2328ECD42300351F9F /* Transaction.swift */; };
+		26353D2728ECD61B00351F9F /* TransactionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D2628ECD61B00351F9F /* TransactionRepository.swift */; };
+		26353D2828ECD61B00351F9F /* TransactionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D2628ECD61B00351F9F /* TransactionRepository.swift */; };
+		26353D2B28ECD9EE00351F9F /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D2A28ECD9EE00351F9F /* ActivityIndicatorView.swift */; };
+		26353D2D28ECDAE900351F9F /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D2C28ECDAE900351F9F /* ErrorView.swift */; };
+		26353D2F28ECDCF100351F9F /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D2E28ECDCF100351F9F /* TransactionRow.swift */; };
+		26353D3128ECDDA500351F9F /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D3028ECDDA500351F9F /* PreviewData.swift */; };
+		26353D3328ECDF9F00351F9F /* TransactionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D3228ECDF9F00351F9F /* TransactionDetail.swift */; };
+		26353D3528ECE37F00351F9F /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D3428ECE37F00351F9F /* DateUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,10 +44,21 @@
 		26353CE328ECBE0600351F9F /* TicketXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketXApp.swift; sourceTree = "<group>"; };
 		26353CE528ECBE0600351F9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		26353CE728ECBE0800351F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		26353CEA28ECBE0800351F9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		26353CF028ECBE0800351F9F /* TicketXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26353CF428ECBE0800351F9F /* TicketXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketXTests.swift; sourceTree = "<group>"; };
 		26353D0D28ECCC4400351F9F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26353D1428ECCE9100351F9F /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		26353D1B28ECD21200351F9F /* TransactionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsList.swift; sourceTree = "<group>"; };
+		26353D1D28ECD2CA00351F9F /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		26353D2028ECD3DA00351F9F /* TransactionsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListViewModel.swift; sourceTree = "<group>"; };
+		26353D2328ECD42300351F9F /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		26353D2628ECD61B00351F9F /* TransactionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepository.swift; sourceTree = "<group>"; };
+		26353D2A28ECD9EE00351F9F /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		26353D2C28ECDAE900351F9F /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		26353D2E28ECDCF100351F9F /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		26353D3028ECDDA500351F9F /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		26353D3228ECDF9F00351F9F /* TransactionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetail.swift; sourceTree = "<group>"; };
+		26353D3428ECE37F00351F9F /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,20 +101,14 @@
 		26353CE228ECBE0600351F9F /* TicketX */ = {
 			isa = PBXGroup;
 			children = (
-				26353CE328ECBE0600351F9F /* TicketXApp.swift */,
-				26353CE528ECBE0600351F9F /* ContentView.swift */,
-				26353CE728ECBE0800351F9F /* Assets.xcassets */,
-				26353CE928ECBE0800351F9F /* Preview Content */,
+				26353D0F28ECCD4700351F9F /* app */,
+				26353D0E28ECCD3E00351F9F /* ui */,
+				26353D1928ECD0B900351F9F /* models */,
+				26353D1828ECD0AF00351F9F /* repositories */,
+				26353D1A28ECD0E900351F9F /* misc */,
+				26353D1028ECCD5700351F9F /* resources */,
 			);
 			path = TicketX;
-			sourceTree = "<group>";
-		};
-		26353CE928ECBE0800351F9F /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				26353CEA28ECBE0800351F9F /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		26353CF328ECBE0800351F9F /* TicketXTests */ = {
@@ -99,6 +119,87 @@
 			path = TicketXTests;
 			sourceTree = "<group>";
 		};
+		26353D0E28ECCD3E00351F9F /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				26353CE528ECBE0600351F9F /* ContentView.swift */,
+				26353D1628ECD04300351F9F /* transactionsList */,
+				26353D1728ECD05A00351F9F /* transactionDetails */,
+				26353D2928ECD9D500351F9F /* components */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		26353D0F28ECCD4700351F9F /* app */ = {
+			isa = PBXGroup;
+			children = (
+				26353CE328ECBE0600351F9F /* TicketXApp.swift */,
+				26353D3028ECDDA500351F9F /* PreviewData.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		26353D1028ECCD5700351F9F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				26353CE728ECBE0800351F9F /* Assets.xcassets */,
+				26353D1428ECCE9100351F9F /* Preview Content */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		26353D1628ECD04300351F9F /* transactionsList */ = {
+			isa = PBXGroup;
+			children = (
+				26353D1B28ECD21200351F9F /* TransactionsList.swift */,
+				26353D2028ECD3DA00351F9F /* TransactionsListViewModel.swift */,
+				26353D2E28ECDCF100351F9F /* TransactionRow.swift */,
+			);
+			path = transactionsList;
+			sourceTree = "<group>";
+		};
+		26353D1728ECD05A00351F9F /* transactionDetails */ = {
+			isa = PBXGroup;
+			children = (
+				26353D3228ECDF9F00351F9F /* TransactionDetail.swift */,
+			);
+			path = transactionDetails;
+			sourceTree = "<group>";
+		};
+		26353D1828ECD0AF00351F9F /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				26353D2628ECD61B00351F9F /* TransactionRepository.swift */,
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		26353D1928ECD0B900351F9F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				26353D2328ECD42300351F9F /* Transaction.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		26353D1A28ECD0E900351F9F /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				26353D1D28ECD2CA00351F9F /* Loadable.swift */,
+				26353D3428ECE37F00351F9F /* DateUtils.swift */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		26353D2928ECD9D500351F9F /* components */ = {
+			isa = PBXGroup;
+			children = (
+				26353D2A28ECD9EE00351F9F /* ActivityIndicatorView.swift */,
+				26353D2C28ECDAE900351F9F /* ErrorView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26353D0428ECBE0800351F9F /* Build configuration list for PBXNativeTarget "TicketX" */;
 			buildPhases = (
+				26D9586B28ECE8E300C77F05 /* Run SwiftLint */,
 				26353CDC28ECBE0600351F9F /* Sources */,
 				26353CDD28ECBE0600351F9F /* Frameworks */,
 				26353CDE28ECBE0600351F9F /* Resources */,
@@ -179,7 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26353CEB28ECBE0800351F9F /* Preview Assets.xcassets in Resources */,
+				26353D1528ECCE9100351F9F /* Preview Content in Resources */,
 				26353CE828ECBE0800351F9F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,13 +295,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26D9586B28ECE8E300C77F05 /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26353CDC28ECBE0600351F9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				26353CE628ECBE0600351F9F /* ContentView.swift in Sources */,
+				26353D1E28ECD2CA00351F9F /* Loadable.swift in Sources */,
+				26353D2428ECD42300351F9F /* Transaction.swift in Sources */,
+				26353D3528ECE37F00351F9F /* DateUtils.swift in Sources */,
+				26353D3128ECDDA500351F9F /* PreviewData.swift in Sources */,
+				26353D2B28ECD9EE00351F9F /* ActivityIndicatorView.swift in Sources */,
+				26353D2728ECD61B00351F9F /* TransactionRepository.swift in Sources */,
+				26353D2F28ECDCF100351F9F /* TransactionRow.swift in Sources */,
+				26353D2128ECD3DA00351F9F /* TransactionsListViewModel.swift in Sources */,
 				26353CE428ECBE0600351F9F /* TicketXApp.swift in Sources */,
+				26353D2D28ECDAE900351F9F /* ErrorView.swift in Sources */,
+				26353D1C28ECD21200351F9F /* TransactionsList.swift in Sources */,
+				26353D3328ECDF9F00351F9F /* TransactionDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +342,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				26353CF528ECBE0800351F9F /* TicketXTests.swift in Sources */,
+				26353D1F28ECD2DA00351F9F /* Loadable.swift in Sources */,
+				26353D2528ECD42300351F9F /* Transaction.swift in Sources */,
+				26353D2228ECD3DA00351F9F /* TransactionsListViewModel.swift in Sources */,
+				26353D2828ECD61B00351F9F /* TransactionRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -326,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -343,14 +481,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TicketX/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TicketX/resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,7 +500,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -371,14 +511,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TicketX/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TicketX/resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,7 +530,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -399,13 +541,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.creativegames.TicketXTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -416,13 +556,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.creativegames.TicketXTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

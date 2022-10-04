@@ -4,9 +4,9 @@ A tiny transaction card app that illustrates building user interfaces using Swif
 
 ### Requirements
 
-- Xcode 13+
+- iOS 15+
 - Swift 5
-- iOS 14+
+- Xcode 13+
 
 ### Project Architecture
 
