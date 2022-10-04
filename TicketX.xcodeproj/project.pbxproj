@@ -32,6 +32,7 @@
 		26353CEA28ECBE0800351F9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		26353CF028ECBE0800351F9F /* TicketXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26353CF428ECBE0800351F9F /* TicketXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketXTests.swift; sourceTree = "<group>"; };
+		26353D0D28ECCC4400351F9F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		26353CD728ECBE0600351F9F = {
 			isa = PBXGroup;
 			children = (
+				26353D0D28ECCC4400351F9F /* README.md */,
 				26353CE228ECBE0600351F9F /* TicketX */,
 				26353CF328ECBE0800351F9F /* TicketXTests */,
 				26353CE128ECBE0600351F9F /* Products */,
