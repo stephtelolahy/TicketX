@@ -7,13 +7,15 @@
 
 import Combine
 
-protocol TransactionRepositoryProtocol {
-    func loadTransactions() -> AnyPublisher<[Transaction], Error>
-}
-
 struct TransactionRepository: TransactionRepositoryProtocol {
     
+    let client: HTTPClient
+    
     func loadTransactions() -> AnyPublisher<[Transaction], Error> {
-        fatalError("TODO: implement")
+        client.request(TransactionsResponseDto.self,
+                       path: "/transactions.json",
+                       headers: ["Accept": "application/json"])
+            .map({ TransactionMapper.map(dto: $0) })
+            .eraseToAnyPublisher()
     }
 }

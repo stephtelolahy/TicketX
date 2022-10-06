@@ -10,7 +10,7 @@ import Foundation
 struct Transaction {
     let name: String
     let type: String
-    let date: Date
+    let date: Date?
     let message: String?
     let amount: Amount
     let smallIcon: Icon
@@ -30,5 +30,6 @@ extension Transaction {
 }
 
 extension Transaction: Identifiable {
-    var id: String { date.description }
+    // TODO: add date
+    var id: String { name }
 }

@@ -15,16 +15,13 @@ struct TransactionRow: View {
     }
 }
 
-#if DEBUG
 struct TransactionRow_Previews: PreviewProvider {
-    static var transactions = PreviewData().transactions
-    
     static var previews: some View {
-        Group {
+        let transactions = PreviewData.transactions
+        return Group {
             TransactionRow(transaction: transactions[0])
             TransactionRow(transaction: transactions[1])
         }
         .previewLayout(.fixed(width: 300, height: 70))
     }
 }
-#endif

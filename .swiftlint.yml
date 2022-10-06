@@ -142,5 +142,6 @@ identifier_name:
     - dto
     - sut
     - exp
+    - get
 
 reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, html, emoji)

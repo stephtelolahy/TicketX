@@ -15,12 +15,8 @@ struct TransactionDetail: View {
     }
 }
 
-#if DEBUG
 struct LandmarkDetail_Previews: PreviewProvider {
-    static let transactions = PreviewData().transactions
-    
     static var previews: some View {
-        TransactionDetail(transaction: transactions[0])
+        TransactionDetail(transaction: PreviewData.transactions[0])
     }
 }
-#endif

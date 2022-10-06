@@ -10,7 +10,7 @@ import Combine
 
 struct TransactionsList: View {
     
-    @ObservedObject var viewModel: ViewModel
+    @ObservedObject var viewModel: TransactionsListViewModel
     
     var body: some View {
         NavigationView {
@@ -60,14 +60,15 @@ private extension TransactionsList {
             } label: {
                 TransactionRow(transaction: transaction)
             }
-        }.padding(.bottom, 0)
+        }
+        .padding(.bottom, 0)
     }
 }
 
-#if DEBUG
 struct CountriesList_Previews: PreviewProvider {
     static var previews: some View {
-        Text("TODO: implement")
+        let repository = DIContainer.stub.transactionRepository
+        let viewModel = TransactionsListViewModel(repository: repository)
+        return TransactionsList(viewModel: viewModel)
     }
 }
-#endif
