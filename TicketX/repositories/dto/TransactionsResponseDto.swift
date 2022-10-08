@@ -1,8 +1,8 @@
 //
-//  TransactionDto.swift
+//  TransactionsResponseDto.swift
 //  TicketX
 //
-//  Created by TELOLAHY Hugues Stéphano on 06/10/2022.
+//  Created by TELOLAHY Hugues Stéphano on 09/10/2022.
 //
 // swiftlint:disable identifier_name
 

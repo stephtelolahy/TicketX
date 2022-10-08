@@ -4,17 +4,16 @@
 //
 //  Created by TELOLAHY Hugues Stéphano on 06/10/2022.
 //
-// swiftlint:disable line_length
 
 import Foundation
 import UIKit
 
 /// Providing dependencies with a Service locator pattern
 ///
+// swiftlint:disable force_unwrapping
 
-// TODO: use Resolver
 struct DIContainer {
-    let transactionRepository: TransactionRepositoryProtocol
+    let transactionRepository: TransactionRepositoryType
     
     static let `default` = initialize()
 }
@@ -33,14 +32,13 @@ private extension DIContainer {
         configuration.timeoutIntervalForResource = 120
         configuration.waitsForConnectivity = true
         configuration.httpMaximumConnectionsPerHost = 5
-        configuration.requestCachePolicy = .returnCacheDataElseLoad
         configuration.urlCache = .shared
         return URLSession(configuration: configuration)
     }
     
-    static func configureTransactionRepository(session: URLSession) -> TransactionRepositoryProtocol {
-        TransactionRepository(client: HTTPClient(session: session,
-                                                 baseURL: "https://gist.githubusercontent.com/Aurazion/365d587f5917d1478bf03bacabdc69f3/raw/3c92b70e1dc808c8be822698f1cbff6c95ba3ad3"))
+    static func configureTransactionRepository(session: URLSession) -> TransactionRepositoryType {
+        TransactionRepository(client: NetworkService(session: session,
+                                                     baseURL: URL(string: AppConfig.baseURL)!))
     }
 }
 

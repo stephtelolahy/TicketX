@@ -30,6 +30,5 @@ extension Transaction {
 }
 
 extension Transaction: Identifiable {
-    // TODO: add date
-    var id: String { name }
+    var id: String { "\(name) \(String(describing: date))" }
 }

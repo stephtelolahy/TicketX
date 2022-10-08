@@ -25,15 +25,25 @@
 		26353D3128ECDDA500351F9F /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D3028ECDDA500351F9F /* PreviewData.swift */; };
 		26353D3328ECDF9F00351F9F /* TransactionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D3228ECDF9F00351F9F /* TransactionDetail.swift */; };
 		26353D3528ECE37F00351F9F /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D3428ECE37F00351F9F /* DateUtils.swift */; };
+		2671020628F2292A008CEAA0 /* NetworkServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671020528F2292A008CEAA0 /* NetworkServiceType.swift */; };
+		2671020728F2292A008CEAA0 /* NetworkServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671020528F2292A008CEAA0 /* NetworkServiceType.swift */; };
+		2671020C28F22C15008CEAA0 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671020B28F22C15008CEAA0 /* NetworkService.swift */; };
+		2671020D28F22C15008CEAA0 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671020B28F22C15008CEAA0 /* NetworkService.swift */; };
+		2671020F28F22E22008CEAA0 /* Publisher+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671020E28F22E22008CEAA0 /* Publisher+Utils.swift */; };
+		2671021028F22E22008CEAA0 /* Publisher+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671020E28F22E22008CEAA0 /* Publisher+Utils.swift */; };
+		2671021528F2363A008CEAA0 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671021428F2363A008CEAA0 /* AppConfig.swift */; };
+		2671021828F236FB008CEAA0 /* TransactionsResponseDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671021728F236FB008CEAA0 /* TransactionsResponseDto.swift */; };
+		2671021928F236FB008CEAA0 /* TransactionsResponseDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671021728F236FB008CEAA0 /* TransactionsResponseDto.swift */; };
+		2671021D28F237DB008CEAA0 /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671021C28F237DB008CEAA0 /* NetworkServiceTests.swift */; };
+		2671022028F23AE4008CEAA0 /* RequestMocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671021E28F23AE4008CEAA0 /* RequestMocking.swift */; };
+		2671022328F23BE9008CEAA0 /* MockedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671022128F23BE9008CEAA0 /* MockedResponse.swift */; };
+		2671022528F24103008CEAA0 /* XCTestCase+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671022428F24103008CEAA0 /* XCTestCase+Stub.swift */; };
+		2671022A28F243E1008CEAA0 /* transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 2671022928F243E1008CEAA0 /* transactions.json */; };
 		26AABA3828F1682A001437EB /* TransactionsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D2028ECD3DA00351F9F /* TransactionsListViewModel.swift */; };
-		26AABA3A28F1683E001437EB /* TransactionRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AABA3928F1683E001437EB /* TransactionRepositoryProtocol.swift */; };
-		26AABA3B28F1683E001437EB /* TransactionRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AABA3928F1683E001437EB /* TransactionRepositoryProtocol.swift */; };
-		26DBD12028EF6D160085DDBA /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBD11F28EF6D160085DDBA /* HTTPClient.swift */; };
+		26AABA3A28F1683E001437EB /* TransactionRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AABA3928F1683E001437EB /* TransactionRepositoryType.swift */; };
+		26AABA3B28F1683E001437EB /* TransactionRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AABA3928F1683E001437EB /* TransactionRepositoryType.swift */; };
 		26DBD12228EF6D650085DDBA /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26353D3428ECE37F00351F9F /* DateUtils.swift */; };
-		26DBD12428EF6D750085DDBA /* NetworkHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBD12328EF6D750085DDBA /* NetworkHelpers.swift */; };
 		26DBD12628EF77E60085DDBA /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBD12528EF77E60085DDBA /* DIContainer.swift */; };
-		26DBD12A28EF7D520085DDBA /* TransactionDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBD12928EF7D520085DDBA /* TransactionDto.swift */; };
-		26DBD12B28EF7D520085DDBA /* TransactionDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBD12928EF7D520085DDBA /* TransactionDto.swift */; };
 		26DBD12D28EF7E260085DDBA /* TransactionMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBD12C28EF7E260085DDBA /* TransactionMapper.swift */; };
 		26DBD12E28EF7E260085DDBA /* TransactionMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBD12C28EF7E260085DDBA /* TransactionMapper.swift */; };
 /* End PBXBuildFile section */
@@ -68,11 +78,18 @@
 		26353D3028ECDDA500351F9F /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		26353D3228ECDF9F00351F9F /* TransactionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetail.swift; sourceTree = "<group>"; };
 		26353D3428ECE37F00351F9F /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
-		26AABA3928F1683E001437EB /* TransactionRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepositoryProtocol.swift; sourceTree = "<group>"; };
-		26DBD11F28EF6D160085DDBA /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
-		26DBD12328EF6D750085DDBA /* NetworkHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelpers.swift; sourceTree = "<group>"; };
+		2671020528F2292A008CEAA0 /* NetworkServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceType.swift; sourceTree = "<group>"; };
+		2671020B28F22C15008CEAA0 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		2671020E28F22E22008CEAA0 /* Publisher+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Utils.swift"; sourceTree = "<group>"; };
+		2671021428F2363A008CEAA0 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		2671021728F236FB008CEAA0 /* TransactionsResponseDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsResponseDto.swift; sourceTree = "<group>"; };
+		2671021C28F237DB008CEAA0 /* NetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
+		2671021E28F23AE4008CEAA0 /* RequestMocking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMocking.swift; sourceTree = "<group>"; };
+		2671022128F23BE9008CEAA0 /* MockedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedResponse.swift; sourceTree = "<group>"; };
+		2671022428F24103008CEAA0 /* XCTestCase+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Stub.swift"; sourceTree = "<group>"; };
+		2671022928F243E1008CEAA0 /* transactions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transactions.json; sourceTree = "<group>"; };
+		26AABA3928F1683E001437EB /* TransactionRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepositoryType.swift; sourceTree = "<group>"; };
 		26DBD12528EF77E60085DDBA /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
-		26DBD12928EF7D520085DDBA /* TransactionDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDto.swift; sourceTree = "<group>"; };
 		26DBD12C28EF7E260085DDBA /* TransactionMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +155,9 @@
 			isa = PBXGroup;
 			children = (
 				260D16CD28F164650023D189 /* repositories */,
+				2671021B28F237BC008CEAA0 /* network */,
+				26AABA3E28F16D1E001437EB /* misc */,
+				2671022828F24371008CEAA0 /* stub */,
 			);
 			path = TicketXTests;
 			sourceTree = "<group>";
@@ -157,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				26353CE328ECBE0600351F9F /* TicketXApp.swift */,
+				2671021428F2363A008CEAA0 /* AppConfig.swift */,
 				26DBD12528EF77E60085DDBA /* DIContainer.swift */,
 				26353D3028ECDDA500351F9F /* PreviewData.swift */,
 			);
@@ -193,7 +214,7 @@
 		26353D1828ECD0AF00351F9F /* repositories */ = {
 			isa = PBXGroup;
 			children = (
-				26AABA3928F1683E001437EB /* TransactionRepositoryProtocol.swift */,
+				26AABA3928F1683E001437EB /* TransactionRepositoryType.swift */,
 				26353D2628ECD61B00351F9F /* TransactionRepository.swift */,
 				26DBD12728EF7D280085DDBA /* dto */,
 				26DBD12828EF7D3D0085DDBA /* mapper */,
@@ -213,7 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				26DBD12128EF6D5D0085DDBA /* utils */,
-				26DBD11E28EF6D0A0085DDBA /* http */,
+				26DBD11E28EF6D0A0085DDBA /* network */,
 			);
 			path = misc;
 			sourceTree = "<group>";
@@ -227,13 +248,39 @@
 			path = components;
 			sourceTree = "<group>";
 		};
-		26DBD11E28EF6D0A0085DDBA /* http */ = {
+		2671021B28F237BC008CEAA0 /* network */ = {
 			isa = PBXGroup;
 			children = (
-				26DBD11F28EF6D160085DDBA /* HTTPClient.swift */,
-				26DBD12328EF6D750085DDBA /* NetworkHelpers.swift */,
+				2671021C28F237DB008CEAA0 /* NetworkServiceTests.swift */,
 			);
-			path = http;
+			path = network;
+			sourceTree = "<group>";
+		};
+		2671022828F24371008CEAA0 /* stub */ = {
+			isa = PBXGroup;
+			children = (
+				2671022928F243E1008CEAA0 /* transactions.json */,
+			);
+			path = stub;
+			sourceTree = "<group>";
+		};
+		26AABA3E28F16D1E001437EB /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				2671021E28F23AE4008CEAA0 /* RequestMocking.swift */,
+				2671022128F23BE9008CEAA0 /* MockedResponse.swift */,
+				2671022428F24103008CEAA0 /* XCTestCase+Stub.swift */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		26DBD11E28EF6D0A0085DDBA /* network */ = {
+			isa = PBXGroup;
+			children = (
+				2671020528F2292A008CEAA0 /* NetworkServiceType.swift */,
+				2671020B28F22C15008CEAA0 /* NetworkService.swift */,
+			);
+			path = network;
 			sourceTree = "<group>";
 		};
 		26DBD12128EF6D5D0085DDBA /* utils */ = {
@@ -241,6 +288,7 @@
 			children = (
 				26353D3428ECE37F00351F9F /* DateUtils.swift */,
 				26353D1D28ECD2CA00351F9F /* Loadable.swift */,
+				2671020E28F22E22008CEAA0 /* Publisher+Utils.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -248,7 +296,7 @@
 		26DBD12728EF7D280085DDBA /* dto */ = {
 			isa = PBXGroup;
 			children = (
-				26DBD12928EF7D520085DDBA /* TransactionDto.swift */,
+				2671021728F236FB008CEAA0 /* TransactionsResponseDto.swift */,
 			);
 			path = dto;
 			sourceTree = "<group>";
@@ -351,6 +399,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2671022A28F243E1008CEAA0 /* transactions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,20 +431,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2671020C28F22C15008CEAA0 /* NetworkService.swift in Sources */,
 				26353CE628ECBE0600351F9F /* ContentView.swift in Sources */,
 				26353D1E28ECD2CA00351F9F /* Loadable.swift in Sources */,
-				26AABA3A28F1683E001437EB /* TransactionRepositoryProtocol.swift in Sources */,
+				26AABA3A28F1683E001437EB /* TransactionRepositoryType.swift in Sources */,
 				26353D2428ECD42300351F9F /* Transaction.swift in Sources */,
-				26DBD12428EF6D750085DDBA /* NetworkHelpers.swift in Sources */,
 				26353D3528ECE37F00351F9F /* DateUtils.swift in Sources */,
 				26353D3128ECDDA500351F9F /* PreviewData.swift in Sources */,
-				26DBD12A28EF7D520085DDBA /* TransactionDto.swift in Sources */,
+				2671021828F236FB008CEAA0 /* TransactionsResponseDto.swift in Sources */,
+				2671020628F2292A008CEAA0 /* NetworkServiceType.swift in Sources */,
 				26353D2B28ECD9EE00351F9F /* ActivityIndicatorView.swift in Sources */,
 				26353D2728ECD61B00351F9F /* TransactionRepository.swift in Sources */,
 				26353D2F28ECDCF100351F9F /* TransactionRow.swift in Sources */,
+				2671021528F2363A008CEAA0 /* AppConfig.swift in Sources */,
 				26353D2128ECD3DA00351F9F /* TransactionsListViewModel.swift in Sources */,
 				26353CE428ECBE0600351F9F /* TicketXApp.swift in Sources */,
-				26DBD12028EF6D160085DDBA /* HTTPClient.swift in Sources */,
+				2671020F28F22E22008CEAA0 /* Publisher+Utils.swift in Sources */,
 				26DBD12D28EF7E260085DDBA /* TransactionMapper.swift in Sources */,
 				26DBD12628EF77E60085DDBA /* DIContainer.swift in Sources */,
 				26353D2D28ECDAE900351F9F /* ErrorView.swift in Sources */,
@@ -410,12 +461,19 @@
 			files = (
 				260D16CF28F164750023D189 /* TransactionMapperTests.swift in Sources */,
 				26AABA3828F1682A001437EB /* TransactionsListViewModel.swift in Sources */,
+				2671022028F23AE4008CEAA0 /* RequestMocking.swift in Sources */,
 				26DBD12228EF6D650085DDBA /* DateUtils.swift in Sources */,
 				26353D1F28ECD2DA00351F9F /* Loadable.swift in Sources */,
+				2671021928F236FB008CEAA0 /* TransactionsResponseDto.swift in Sources */,
 				26353D2528ECD42300351F9F /* Transaction.swift in Sources */,
 				26DBD12E28EF7E260085DDBA /* TransactionMapper.swift in Sources */,
-				26AABA3B28F1683E001437EB /* TransactionRepositoryProtocol.swift in Sources */,
-				26DBD12B28EF7D520085DDBA /* TransactionDto.swift in Sources */,
+				2671022528F24103008CEAA0 /* XCTestCase+Stub.swift in Sources */,
+				26AABA3B28F1683E001437EB /* TransactionRepositoryType.swift in Sources */,
+				2671020728F2292A008CEAA0 /* NetworkServiceType.swift in Sources */,
+				2671020D28F22C15008CEAA0 /* NetworkService.swift in Sources */,
+				2671022328F23BE9008CEAA0 /* MockedResponse.swift in Sources */,
+				2671021D28F237DB008CEAA0 /* NetworkServiceTests.swift in Sources */,
+				2671021028F22E22008CEAA0 /* Publisher+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

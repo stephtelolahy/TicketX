@@ -32,7 +32,7 @@ class TransactionMapperTests: XCTestCase {
         XCTAssertEqual(result.count, 1)
         XCTAssertEqual(result[0].name, "Restos du coeur")
         XCTAssertEqual(result[0].type, "donation")
-        XCTAssertEqual(result[0].date, Date())
+        XCTAssertEqual(result[0].date, Date(year: 2021, month: 3, day: 7, hour: 14, minute: 4, second: 45))
         XCTAssertEqual(result[0].message, "Don à l'arrondi")
         XCTAssertEqual(result[0].amount.value, -0.07)
         XCTAssertEqual(result[0].amount.currency, "€")

@@ -17,7 +17,7 @@ extension DIContainer {
     }
 }
 
-private struct StubTransactionRepository: TransactionRepositoryProtocol {
+private struct StubTransactionRepository: TransactionRepositoryType {
     func loadTransactions() -> AnyPublisher<[Transaction], Error> {
         Just(PreviewData.transactions)
             .setFailureType(to: Error.self)

@@ -15,7 +15,7 @@ class TransactionsListViewModel: ObservableObject {
     
     // MARK: - Dependencies
     
-    private let repository: TransactionRepositoryProtocol
+    private let repository: TransactionRepositoryType
     
     // MARK: - Properties
     
@@ -23,7 +23,7 @@ class TransactionsListViewModel: ObservableObject {
     
     // MARK: - Init
     
-    init(repository: TransactionRepositoryProtocol) {
+    init(repository: TransactionRepositoryType) {
         self.repository = repository
     }
     

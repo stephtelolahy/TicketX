@@ -143,5 +143,7 @@ identifier_name:
     - sut
     - exp
     - get
+    - day
+    - key
 
 reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, html, emoji)
